@@ -1,0 +1,40 @@
+#root
+  > div
+  > div.product-list-container
+  > div
+  > div
+  > div:nth-child(1)
+  > div.ant-skeleton.ant-skeleton-element.ant-skeleton-active.css-dev-only-do-not-override-ph9edi,
+#root
+  > div
+  > div.product-list-container
+  > div
+  > div
+  > div:nth-child(2)
+  > div.ant-skeleton.ant-skeleton-element.ant-skeleton-active.css-dev-only-do-not-override-ph9edi,
+#root
+  > div
+  > div.product-list-container
+  > div
+  > div
+  > div:nth-child(3)
+  > div.ant-skeleton.ant-skeleton-element.ant-skeleton-active.css-dev-only-do-not-override-ph9edi,
+#root
+  > div
+  > div.product-list-container
+  > div
+  > div
+  > div:nth-child(4)
+  > div.ant-skeleton.ant-skeleton-element.ant-skeleton-active.css-dev-only-do-not-override-ph9edi {
+  width: 100%;
+}
+.product-list-skeleton .ant-skeleton-title {
+  width: 100% !important;
+  margin-top: 20px;
+}
+.product-list-skeleton .ant-skeleton-paragraph {
+  margin-top: 20px !important;
+}
+.product-list-skeleton .ant-skeleton-paragraph li:last-child {
+  width: 100% !important;
+}

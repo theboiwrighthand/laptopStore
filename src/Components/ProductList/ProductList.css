@@ -1,0 +1,145 @@
+.product-list-container{
+  width: 80%;
+  margin: 0 auto;
+}
+.product-list__title{
+  margin: 20px 0;
+  background-color: red;
+  color:white;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-wp-parents {
+  display: flex;
+  /* height: 100vh;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw; */
+}
+
+.banner {
+  padding: 0 15px;
+  background-color: transparent;
+}
+
+.banner .banner-item {
+  background-color: #d7202c;
+}
+
+.banner .banner-item h2 {
+  padding: 6px 0;
+  margin: 0;
+  color: white;
+  margin-left: 20px;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ant-card-cover {
+  max-height: 240px;
+  position: relative;
+  overflow: hidden;
+}
+
+.custom-antd:hover .order-btn {
+  bottom: 0;
+}
+
+.cart-wp {
+  width: 20% !important;
+  margin-bottom: 10px;
+}
+
+.custom-antd {
+  padding: 0 12px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 0;
+}
+
+.card-title h2 {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  color: #323332;
+  font-size: 16px;
+  font-weight: 500;
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.custom-antd .ant-card-body {
+  padding: 10px;
+}
+
+.card-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-price .oldprice {
+  color: rgb(136, 136, 136);
+  text-decoration: line-through;
+  font-size: 13px;
+}
+
+.card-price .saleprice {
+  color: red;
+  font-weight: 750;
+  /* font-size: 20px; */
+  font-size: 18px;
+}
+
+.card-price p {
+  padding: 0;
+  margin: 0;
+}
+
+.salepercent {
+  width: 48px;
+  height: 52px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.order-btn {
+  position: absolute;
+  width: 100%;
+  display: flex !important;
+  align-items: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  gap: 10px;
+  font-size: 12px;
+  justify-content: center;
+  transition: all linear 0.3s;
+  bottom: -50px;
+}
+
+.order-btn .ant-btn {
+  /* background: none repeat scroll 0 0 rgba(121, 117, 101, 0.8); */
+  background: #252525;
+}
+
+.order-btn .ant-btn:hover {
+  background-color: #0655a6;
+}

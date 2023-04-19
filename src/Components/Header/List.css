@@ -1,0 +1,38 @@
+.header-search__style {
+    background-color: white;
+    position: relative;
+}
+
+.main {
+    position: relative;
+  }
+  
+.dropdown-search {
+    width: 506px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10000;
+    margin-left: 16px;
+    background-color: white;
+}
+.header-search-content{
+    align-items: center;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 0 20px;
+}
+
+.header-search-content .price{
+    color: rgb(188, 70, 70);
+}
+
+@media screen and (max-width: 500px) {
+    .dropdown-search{
+        position: fixed;
+        top: 72px;
+        left: 0;
+        width: 100vw;
+        margin: 0;
+    }
+}

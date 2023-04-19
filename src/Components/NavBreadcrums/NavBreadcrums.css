@@ -1,0 +1,23 @@
+.breadcrumbs {
+  width: 100%;
+  background-color: #f8f8f8
+}
+
+  .breadcrumbs>div {
+    height: 100%;
+    padding: 10px 5px ;
+
+  }
+
+.breadcrumbs>div>a:hover {
+  color: #f45b4f;
+}
+
+.breadcrumbs>div>a {
+  color: #6abae7;
+  text-decoration: none !important;
+}
+
+.breadcrumbs>div>a:last-child {
+  color: black;
+}

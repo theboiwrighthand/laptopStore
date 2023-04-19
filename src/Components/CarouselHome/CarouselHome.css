@@ -1,0 +1,32 @@
+.dots {
+  position: absolute;
+  top: 90%;
+}
+.slick-dots li {
+  list-style: none ;
+  bottom: 60px ;
+}
+.slick-dots li button {
+  flex: 0 1 auto ;
+  width: 30px ;
+  height: 3px ;
+
+}
+.slick-dots li button:before{ 
+  width: 28px !important;
+  height: 3px !important;
+  border-radius: 5px ;
+  background-color: white;
+  content: "" !important;
+}
+
+.slick-slider {
+  width: 100% ;
+  height: 100% ;
+  background-color: transparent;
+}
+.slick-list img{
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 auto;
+}

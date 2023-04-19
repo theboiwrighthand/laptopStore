@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&family=Mynerve&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+   
+ }
+/* .Page-Cart-Body > table,tr,td {
+    border: 1px solid #f0f0f0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+} */
+
+.Page-Cart-Header h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.Page-Cart-Body{
+    width: 1200px;
+    
+}
+
+.Page-Cart-Body td{
+    background-color: white !important;
+    border-color: #f0f0f0;
+    
+}
+.Page-Cart-ParityProduct td{
+    background-color: white !important;
+    border-color: #f0f0f0;
+    
+}
+
+.Page-Cart-Body-NameItem{
+    font-weight: 600;
+    color: #428bca;
+    width: 30%;
+}
+.Page-Cart-Body-NameItem span:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+.Page-Cart-Body-Note{
+    width: 95%;
+    border: 1px solid #6498cd;
+    font-weight: 500;
+    height: 70px;
+    
+    
+}
+
+.Page-Cart-Body-Note:checked{
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.Page-Cart-Body-Note::placeholder{
+    opacity: 0.5;
+
+}
+.Page-Cart-Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.Page-Cart-Footer button{
+    background: #ec2424;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    margin-right: 7px;
+}
+.Page-Cart-Footer button:hover{
+    background-color: rgba(236, 36, 36, 0.4);
+    color: black;
+    cursor: pointer;
+}
+.Page-Cart-Body-Remove{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Page-Cart-Body-Remove button{
+    border: none;
+    background-color: white;
+}
+
+.Page-Cart-Body-Remove button:hover{
+    cursor: pointer;
+}
+.Page-Cart-Footer{
+    padding-bottom: 30px;
+}
+.Page-Cart-ParityProduct >table,tr,td {
+    border: 1px solid #f0f0f0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    background-color: white !important;
+    border-color: #f0f0f0;
+    
+}
