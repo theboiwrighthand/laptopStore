@@ -55,7 +55,7 @@ export default function ProductDetail() {
   }, [slug])
   return <>
     {/* BreadCrumbs */}
-    {checkResult && product ? <NavBreadcrums nameProduct={product.name} nameBrand={product.idBrand && product.idBrand.data.attributes.name} /> : null}
+    {checkResult && product ? <NavBreadcrums nameProduct={product.name} nameBrand={product.idBrand && product?.idBrand?.data?.attributes?.name} /> : null}
 
     <div className="Container store-container ">
       <div className="page_content"> 
@@ -67,7 +67,7 @@ export default function ProductDetail() {
         </div>
         <div className="page_content_right">
           {checkResult && product ? <Typography.Title type="primary" level={2}>{product.name}</Typography.Title> : "SẢN PHẨM KHÔNG TỒN TẠI "}
-          <p> Hãng sản xuất : <b>{checkResult && product && product.idBrand ? product.idBrand.data.attributes.name : null}</b> </p>
+          <p> Hãng sản xuất : <b>{checkResult && product && product.idBrand ? product?.idBrand?.data?.attributes?.name : null}</b> </p>
           <p> Bảo hành : 12 tháng </p>
           <Divider />
           <Divider />
